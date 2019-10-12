@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be151d27-e3fd-46a1-8d6e-f0295a4c00f6" name="Default Changelist" comment="" />
+    <list default="true" id="be151d27-e3fd-46a1-8d6e-f0295a4c00f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LogicServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Assignment_1_CC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ServerSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServerSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/socketServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/socketServerThread.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,9 +41,12 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1RzcI7uUp6uYPzCzkfxrCPEQnd7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -50,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LogicController">
+  <component name="RunManager" selected="Application.ClientSimulator">
     <configuration name="CSVReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CSV.CSVReader" />
       <module name="Assignment_1_CC" />
@@ -64,6 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientSimulator" />
+      <module name="streaming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LogicController" />
       <module name="Assignment_1_CC" />
@@ -71,9 +93,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogicServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicServer" />
+      <module name="streaming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ServerSimulator" />
-      <module name="Assignment_1_CC" />
+      <module name="streaming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -86,8 +115,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LogicController" />
+        <item itemvalue="Application.ClientSimulator" />
         <item itemvalue="Application.ServerSimulator" />
+        <item itemvalue="Application.LogicServer" />
+        <item itemvalue="Application.LogicController" />
         <item itemvalue="Application.CSVReader" />
       </list>
     </recent_temporary>
@@ -105,11 +136,23 @@
       <workItem from="1570673285575" duration="12747000" />
       <workItem from="1570791966959" duration="641000" />
       <workItem from="1570801875744" duration="1815000" />
+      <workItem from="1570883728507" duration="1185000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

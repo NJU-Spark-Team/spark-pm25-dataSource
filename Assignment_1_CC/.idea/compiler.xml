@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Assignment_1_CC" />
+        <module name="streaming" />
       </profile>
     </annotationProcessing>
   </component>
