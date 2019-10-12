@@ -6,6 +6,9 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
+/**
+ * Read data from csv file and write to MongoDB.
+ */
 public class CSVReader {
 
     private static final String filePath = "C:\\Users\\Disclover\\Desktop\\Data";

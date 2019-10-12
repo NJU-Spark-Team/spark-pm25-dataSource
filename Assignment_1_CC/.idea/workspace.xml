@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be151d27-e3fd-46a1-8d6e-f0295a4c00f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LogicServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Assignment_1_CC.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServerSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServerSimulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/socketServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/socketServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LogicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LogicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogicServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerSimulator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +133,7 @@
       <workItem from="1570791966959" duration="641000" />
       <workItem from="1570801875744" duration="1815000" />
       <workItem from="1570883728507" duration="1185000" />
+      <workItem from="1570894303155" duration="102000" />
     </task>
     <servers />
   </component>
@@ -148,7 +145,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

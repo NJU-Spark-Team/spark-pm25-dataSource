@@ -5,6 +5,9 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * This is the source code as a server.
+ */
 public class LogicServer {
     public static MongoUtil mongoUtil = new MongoUtil("SparkStreaming");
     public static void main(String[] args) {

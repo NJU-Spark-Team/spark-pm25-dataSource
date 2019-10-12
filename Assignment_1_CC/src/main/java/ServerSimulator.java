@@ -2,6 +2,9 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * This is a simulator of socket client.
+ */
 public class ServerSimulator {
     public static void main(String[] args) {
         new ServerSimulator().startAction();

@@ -4,6 +4,9 @@ import org.bson.Document;
 import java.io.OutputStream;
 import java.net.Socket;
 
+/**
+ * This is the source code as a client.
+ */
 public class LogicController {
     private static final String host = "127.0.0.1";
     private static final int port = 9999;

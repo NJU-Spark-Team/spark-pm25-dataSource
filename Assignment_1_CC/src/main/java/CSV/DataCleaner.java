@@ -2,6 +2,9 @@ package CSV;
 
 import org.bson.Document;
 
+/**
+ * Take responsibility of data cleaning.
+ */
 public class DataCleaner {
 
     private String cityName;

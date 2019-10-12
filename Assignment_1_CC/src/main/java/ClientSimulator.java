@@ -1,6 +1,9 @@
 import java.io.*;
 import java.net.Socket;
 
+/**
+ * This is a simulator of socket client.
+ */
 public class ClientSimulator {
     private static final String host = "127.0.0.1";
     private static final int port = 9999;
