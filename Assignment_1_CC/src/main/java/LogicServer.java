@@ -10,13 +10,15 @@ import java.net.Socket;
  */
 public class LogicServer {
     public static MongoUtil mongoUtil = new MongoUtil("SparkStreaming");
+
     public static void main(String[] args) {
-        new LogicServer().startAction();
+        new LogicServer().startAction(9999);
     }
-    private void startAction() {
+
+    public void startAction(int port) {
         ServerSocket serverSocket = null;
         try {
-            serverSocket = new ServerSocket(9999);
+            serverSocket = new ServerSocket(port);
             System.out.println("Mission Ready!");
             while (true) {
                 Socket socket = serverSocket.accept();
@@ -34,7 +36,7 @@ public class LogicServer {
     }
 
 
-    class socketServerThread implements Runnable{
+    class socketServerThread implements Runnable {
         Socket socket;
         BufferedReader reader;
         BufferedWriter writer;
@@ -44,31 +46,31 @@ public class LogicServer {
                 reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
-                while (reader.readLine() != null){
+                while (reader.readLine() != null) {
                     Document document = LogicServer.mongoUtil.selectNext("Beijing");
                     writer.write(document.toJson() + "\n");
                     writer.flush();
                 }
-            } catch (Exception e){
-    //            e.printStackTrace();
+            } catch (Exception e) {
+                //            e.printStackTrace();
             } finally {
                 try {
-                    if (reader != null){
+                    if (reader != null) {
                         reader.close();
                     }
-                    if (writer != null){
+                    if (writer != null) {
                         writer.close();
                     }
-                    if (socket != null){
+                    if (socket != null) {
                         socket.close();
                     }
-                } catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
         }
 
-        public socketServerThread(Socket socket){
+        public socketServerThread(Socket socket) {
             super();
             this.socket = socket;
         }
